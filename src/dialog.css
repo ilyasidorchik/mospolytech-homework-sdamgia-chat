@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 320px;
+    margin: 0 auto;
+    font-family: "Roboto";
+}
+
+/*Header*/
+
+.Header{
+    height: 50px;
+    width: 100%;
+    background-color: #000066;
+}
+.Header-Block{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.Header-Arrow{
+   flex: 0.6;
+   margin-top: 5px;
+}
+.Header-Img{
+    width: 40%;
+}
+.Header-Name{
+    flex: 1.4;
+    font-weight: bold;
+}
+/*fonts*/
+@font-face{
+    font-family: "Roboto";
+    src: url("../src/Roboto.ttf");
+}
