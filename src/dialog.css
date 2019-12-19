@@ -36,6 +36,57 @@ body{
     flex: 1.4;
     font-weight: bold;
 }
+
+/*Dialog*/
+.Dialog{
+    position: absolute;
+    width: 300px;
+    margin: 0 auto;
+    bottom: 75px;
+    font-size: 15px;
+}
+.Dialog-Date{
+    text-align: center;
+    color: #999999;
+    margin-top: 10px;
+}
+.Dialog-Text{
+    width: 200px;
+    height: 27px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 8px 0 0 15px;
+}
+.Dialog-Left{
+    background: rgba(0, 0, 102, 0.15);
+}
+.Dialog-Right{
+    color: white;
+    background: #000066;
+    margin-left: 90px;
+}
+/*Enter*/
+.Enter{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    justify-content: space-between;
+}
+.Enter-Input{
+    width: 230px;
+    height: 35px;
+    padding-left: 9px;
+    background: #F0F0F0;
+    border: 1px solid #F0F0F0;  
+    border-radius: 5px;  
+}
+.Enter-Btn{
+    width: 35px;
+    height: 35px;
+}
+
 /*fonts*/
 @font-face{
     font-family: "Roboto";
