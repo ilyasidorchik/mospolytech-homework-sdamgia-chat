@@ -1,94 +1,115 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+    margin: 0; 
 }
-body{
-    width: 320px;
+
+body {
+    width: 20em;
     margin: 0 auto;
-    font-family: "Roboto";
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 /*Header*/
 
-.Header{
-    height: 50px;
+.Header {
     width: 100%;
-    background-color: #000066;
+    height: 3.125em;
+    background-color: #006;
 }
-.Header-Block{
+
+.Header-Block {
     display: flex;
-    width: 90%;
-    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    font-size: 20px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.250em;
+    color:  #fff;
 }
-.Header-Arrow{
+
+.Header-Arrow {
    flex: 0.6;
-   margin-top: 5px;
+   margin-top: 0.313em;
 }
-.Header-Img{
+
+.Header-Img {
     width: 40%;
 }
-.Header-Name{
+
+.Header-Name {
     flex: 1.4;
     font-weight: bold;
 }
 
 /*Dialog*/
-.Dialog{
-    position: absolute;
-    width: 300px;
+
+.Dialog {
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: /*18.750em*/ 100%;
+    height: 81vh;
     margin: 0 auto;
-    bottom: 75px;
-    font-size: 15px;
+    font-size: 0.938em;
 }
-.Dialog-Date{
+ 
+.Dialog-Date {
+    margin-top: 0.625em;
     text-align: center;
     color: #999999;
-    margin-top: 10px;
 }
-.Dialog-Text{
-    width: 200px;
-    height: 27px;
-    margin-top: 10px;
-    border-radius: 20px;
-    padding: 8px 0 0 15px;
+ 
+.Dialog-Text {
+    width: auto;
+    max-width: 12.500em;
+    height: auto;
+    min-height: 1.688em;
+    margin-top: 0.625em;
+    padding: 0.500em 0 0 0.938em;
+    border-radius: 1.250em;
 }
-.Dialog-Left{
+
+.Dialog-Text_left {
     background: rgba(0, 0, 102, 0.15);
 }
-.Dialog-Right{
-    color: white;
+
+.Dialog-Text_right {
+    margin-left: 5.625em;
+    color:  #fff;
     background: #000066;
-    margin-left: 90px;
 }
+
 /*Enter*/
-.Enter{
-    width: 300px;
-    margin: 0 auto;
-    display: flex;
+
+.Enter {
     position: absolute;
-    bottom: 10px;
+    bottom: 0.625em;
+    display: flex;
     justify-content: space-between;
+    width: 18.750em;
+    height: 3.125em;
+    margin: 0 auto; 
 }
-.Enter-Input{
-    width: 230px;
-    height: 35px;
-    padding-left: 9px;
+
+.Enter-Input {
+    width: 14.375em;
+    height: 2.188em;
+    padding-left: 0.563em;
+    font-size: 0.875em;
     background: #F0F0F0;
-    border: 1px solid #F0F0F0;  
-    border-radius: 5px;  
+    border: 0.063em solid #F0F0F0;  
+    border-radius: 0.313em;  
 }
-.Enter-Btn{
-    width: 35px;
-    height: 35px;
+
+.Enter-Btn {
+    width: 2.188em;
+    height: 2.188em;
 }
 
 /*fonts*/
-@font-face{
+
+@font-face {
     font-family: "Roboto";
     src: url("../src/Roboto.ttf");
 }
