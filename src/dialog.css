@@ -51,10 +51,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: /*18.750em*/ 100%;
-  margin: 0 auto;
+  margin: 0 0.5rem 3.5rem;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 
   font-size: 0.938em;
 }
