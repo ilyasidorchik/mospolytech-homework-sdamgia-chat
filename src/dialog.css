@@ -70,9 +70,8 @@ body {
   width: auto;
   max-width: 12.500em;
   height: auto;
-  min-height: 1.688em;
   margin-top: 0.625em;
-  padding: 0.500em 0 0 0.938em;
+  padding: 0.5em 0.938em;
 
   border-radius: 1.250em;
 }
